@@ -1,0 +1,11 @@
+com\familytree\application\service\FamilyService.class
+com\familytree\application\exception\FamilyMemberNotFoundException.class
+com\familytree\application\repository\FamilyRepository.class
+com\familytree\application\controller\FamilyController.class
+com\familytree\application\exception\GlobalExceptionHandler.class
+com\familytree\application\FamilyTreeApplication.class
+com\familytree\application\config\WebMvcConfig.class
+com\familytree\application\model\Gender.class
+com\familytree\application\dto\FamilyMemberDto.class
+com\familytree\application\exception\PartnerNotFoundException.class
+com\familytree\application\model\FamilyMember.class
