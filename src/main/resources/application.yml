@@ -1,17 +1,20 @@
 spring:
   datasource:
-    url: jdbc:mysql://uhaek9q3u5trkiyl:PISLeyh2GjlDOHzpGlBh@bgnmtrkfg29j5elgttin-mysql.services.clever-cloud.com:3306/bgnmtrkfg29j5elgttin
-    username: uhaek9q3u5trkiyl
-    password: PISLeyh2GjlDOHzpGlBh
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://pegfamtree.mysql.database.azure.com:3306/familytreepeg
+    username: root1
+    password: cometoeat@1
 
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    open-in-view: false
     hibernate:
       ddl-auto: update
-      format_sql: true
     show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
 
 server:
-  address: 0.0.0.0
   port: 8081
